@@ -1,4 +1,6 @@
 image: maven:3-jdk-7
 
 build:
-  script: "mvn install -B"
+  script:
+    - cd MavenTest
+    - mvn install -B
