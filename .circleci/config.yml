@@ -24,6 +24,7 @@ jobs:
       - checkout
 
       # Download and cache dependencies
+      - run: cd MavenTest
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "pom.xml" }}
