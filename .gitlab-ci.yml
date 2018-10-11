@@ -3,4 +3,4 @@ image: maven:3-jdk-7
 build:
   script:
     - cd MavenTest
-    - mvn install -B
+    - mvn install -DskipTests -B
