@@ -1,4 +1,4 @@
 language: java
 sudo: false
-script: mvn clean install -DskipTest
+script: mvn clean install -DskipTests
 before_script: cd MavenTest/
